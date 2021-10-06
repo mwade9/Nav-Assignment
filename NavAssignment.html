@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: blue;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: blue;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+    <div>
+        <img src="C2.png" width="10%">
+    </div>
+<div class="navbar">
+  <div class="subnav">
+    <button class="subnavbtn"><a href="https://www.instagram.com/" target="blank">About</a><i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="https://www.communitybible.com/about/" target="blank">History</a>
+      <a href="https://www.comixology.com/"  target="blank">Leadership</a>
+      <a href="https://www.cbr.com/"  target="blank">Values</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn"><a href="https://www.feedingamerica.org/our-work" target="blank">Our Work</a>
+        <i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="https://www.jdrf.org/impact/research/" target="blank">Research</a>
+      <a href="https://www.alz.org/get_involved" target="blank">Community</a>
+    </div>
+  </div> 
+  <div class="subnav">
+    <button class="subnavbtn"><a href="https://bibleproject.com/give/" target="blank">Take Action</a><i class="fa fa-caret-down"></i></button>
+    <div class="subnav-content">
+      <a href="https://www.linkedin.com/" target="blank">How to Help</a>
+      <a href="https://www.ryanandcraig.com/" target="blank">Volunteer</a>
+      <a href="https://eloquentjavascript.net/index.html" target="blank">Advocacy</a>
+    </div>
+  </div>
+  <a href="https://www.uiw.edu/"target="blank">Contact</a>
+  <a href="https://bibleproject.com/give/" target="blank">Donate</a>
+  
+</div>
+
+</body>
+</html>
